@@ -1,8 +1,10 @@
 @font-face {
 	font-family: 'Futura';
-	src:  url('./Futura.ttc') format('ttc');
+	src: url('./Futura-Bold.ttf') format('ttf'),
+		 url('./Futura-Medium.ttf') format('ttf');
 }
 .hello {
   color: red;
   background: url('./icon.png');
+  font-family: 'Futura';
 }

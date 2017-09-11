@@ -17265,7 +17265,7 @@ var transform;
 var options = {}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(9)(content, options);
+var update = __webpack_require__(10)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -17290,7 +17290,7 @@ exports = module.exports = __webpack_require__(7)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\n\tfont-family: 'Futura';\n\tsrc:  url(" + __webpack_require__(8) + ") format('ttc');\n}\n.hello {\n  color: red;\n  background: url(" + __webpack_require__(0) + ");\n}", ""]);
+exports.push([module.i, "@font-face {\n\tfont-family: 'Futura';\n\tsrc: url(" + __webpack_require__(8) + ") format('ttf'),\n\t\t url(" + __webpack_require__(9) + ") format('ttf');\n}\n.hello {\n  color: red;\n  background: url(" + __webpack_require__(0) + ");\n  font-family: 'Futura';\n}", ""]);
 
 // exports
 
@@ -17379,12 +17379,18 @@ function toComment(sourceMap) {
 
 /***/ }),
 /* 8 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-throw new Error("Module parse failed: /Users/LexisvonSeggern/code/personal-website-webpack/webpack-demo/src/Futura.ttc Unexpected character '\u0000' (1:4)\nYou may need an appropriate loader to handle this file type.\n(Source code omitted for this binary file)");
+module.exports = __webpack_require__.p + "3581cb5c8426d574310ee182a34039a7.ttf";
 
 /***/ }),
 /* 9 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "6af61f740368b6c328500c161e963ac0.ttf";
+
+/***/ }),
+/* 10 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -17430,7 +17436,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(10);
+var	fixUrls = __webpack_require__(11);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -17743,7 +17749,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, exports) {
 
 
