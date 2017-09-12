@@ -4,6 +4,7 @@ import './stylesheets/layout.css';
 import './stylesheets/buttons.css';
 import './stylesheets/colors.css';
 import './stylesheets/breakpoints.css';
+import './favicons/favicons';
 
 $('.mobile-nav-btn').click(function(e){
 		$('.mobile-nav').slideToggle();

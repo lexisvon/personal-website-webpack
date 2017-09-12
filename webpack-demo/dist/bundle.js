@@ -528,6 +528,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__stylesheets_colors_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__stylesheets_colors_css__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__stylesheets_breakpoints_css__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__stylesheets_breakpoints_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__stylesheets_breakpoints_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__favicons_favicons__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__favicons_favicons___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__favicons_favicons__);
+
 
 
 
@@ -919,6 +922,105 @@ exports.push([module.i, "/*-- 5.3 - Breakpoints --*/\n\t\n\n@media (min-width: 8
 
 // exports
 
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+const faviconsContext = __webpack_require__(19);
+faviconsContext.keys().forEach(faviconsContext);
+
+/***/ }),
+/* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./android-chrome-192x192.png": 20,
+	"./android-chrome-256x256.png": 21,
+	"./apple-touch-icon.png": 22,
+	"./browserconfig.xml": 23,
+	"./favicon-16x16.png": 24,
+	"./favicon-32x32.png": 25,
+	"./favicon.ico": 26,
+	"./manifest.json": 27,
+	"./mstile-150x150.png": 28,
+	"./safari-pinned-tab.svg": 29
+};
+function webpackContext(req) {
+	return __webpack_require__(webpackContextResolve(req));
+};
+function webpackContextResolve(req) {
+	var id = map[req];
+	if(!(id + 1)) // check for number or string
+		throw new Error("Cannot find module '" + req + "'.");
+	return id;
+};
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 19;
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/android-chrome-192x192.png";
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/android-chrome-256x256.png";
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/apple-touch-icon.png";
+
+/***/ }),
+/* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/browserconfig.xml";
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/favicon-16x16.png";
+
+/***/ }),
+/* 25 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/favicon-32x32.png";
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/favicon.ico";
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/manifest.json";
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/mstile-150x150.png";
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "./favicons/safari-pinned-tab.svg";
 
 /***/ })
 /******/ ]);
