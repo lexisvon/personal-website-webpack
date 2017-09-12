@@ -1,21 +1,20 @@
-import _ from 'lodash';
-import './style.css';
-import Icon from './icon.png';
+import './normalize.css';
+import './type.css';
+import './layout.css';
+import './buttons.css';
+import './colors.css';
+import './breakpoints.css';
 
-function component() {
-  var element = document.createElement('div');
+$('.mobile-nav-btn').click(function(e){
+		$('.mobile-nav').slideToggle();
+		// this prevents the browser from doing the default link action
+		e.preventDefault();
+	});
 
-  // Lodash, now imported by this script
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add('hello');
-
-  // Add the image to our existing div.
-  var myIcon = new Image();
-  myIcon.src = Icon;
-
-  element.appendChild(myIcon);
-
-  return element;
-}
-
-document.body.appendChild(component());
+var $window = $(window);
+	  $window.on('resize', function (){
+        if ($window.width() > 800)
+        {
+            $('.mobile-nav').hide();
+        }
+    });
