@@ -2,10 +2,10 @@
 4.0 - MEDIA
 -------------------------------------------------------------- */
 .about-img {
-	background: url(./selfportrait.jpg) no-repeat;
+	background: url(./../img/selfportrait.jpg) no-repeat;
 }
 .hero-img {
-	background: url(./tree.jpg) no-repeat;
+	background: url(./../img/tree.jpg) no-repeat;
 }
 .img {
 	max-width: 100%;
@@ -14,7 +14,7 @@
 	background-size: cover;
 }
 .article-img-1 {
-	background: url(./tree.jpg) no-repeat;
+	background: url(./../img/tree.jpg) no-repeat;
 	height: 200px;
 }
 .article-img-styles {
