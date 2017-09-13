@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+5.0 - UTILITY
+-------------------------------------------------------------- */
+$header-grey: #e6e6e6;
+$icon-grey: #CCCCCC;
+$twitter-blue: #1DA1F2;
+$black: #404040;
+$linkdin-blue: #0077B5;
+$hover-green: #71B6FC;
+$nav-grey: #404040;
+$nav-white: #F4F2F0;
+
+/*-- 5.1 - Background Colors/Colors --*/
+.title, body > header a {
+	color: $header-grey;
+}
+i {
+	color: $icon-grey;
+}
+.fa-twitter:hover {
+	color: $twitter-blue;
+}
+.fa-github:hover, body, a {
+	color: $black;
+}
+.fa-linkedin:hover {
+	color: $linkdin-blue;
+}
+.main-nav a:hover, .mobile-nav a:hover, .fa-bars:hover, .title a:hover, .article-item:hover .article-preview-title, .underline-bb:hover, .contact-h li a:hover {
+	color: $hover-green;
+	border-color: $hover-green;
+}
+.article-item a {
+	background-color: transparent;
+}
+.mobile-nav {
+	background-color: $nav-white;
+}
+.bkgrd-grey {
+	background-color: $nav-grey;
+}

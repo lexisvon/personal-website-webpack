@@ -1,9 +1,10 @@
 import './stylesheets/normalize.css';
-import './stylesheets/type.css';
-import './stylesheets/layout.css';
-import './stylesheets/buttons.css';
-import './stylesheets/colors.css';
-import './stylesheets/breakpoints.css';
+import './stylesheets/type.scss';
+import './stylesheets/layout.scss';
+import './stylesheets/buttons.scss';
+import './stylesheets/colors.scss';
+import './stylesheets/images.scss';
+import './stylesheets/breakpoints.scss';
 import './favicons/favicons';
 
 $('.mobile-nav-btn').click(function(e){
